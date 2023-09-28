@@ -1,0 +1,70 @@
+<div class="container">
+  <div class="upper-data">
+    <img
+      src="https://media.cntraveler.com/photos/565491d75e7aeb7a6e217383/master/w_1200,c_limit/kangerlussuaq-greenland-inland-ice-cr-alamy-tout.jpg?mbid=social_retweet"
+      alt="" *ngIf="13 > 14">
+    <img src="https://th.bing.com/th/id/OIP._WuYfQl2YZgx2mmdb-YXRgHaEK?w=308&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7" alt=""
+      *ngIf="14 <= 15">
+    <div class="weatherData">
+      <div class="location">Mangalore</div>
+      <div class="temperture">{{ 14.40 | number: '1.0-0'}} C </div>
+
+    </div>
+
+  </div>
+  <div class="lower-data">
+    <div class="moreInfo">
+      More Info
+    </div>
+    <div class="moreInfoCont">
+      <div class="infoBlock">
+        <div class="info">
+          <img src="https://th.bing.com/th/id/OIP.HQoJkc3q-RaeihcNXeX4ywHaH4?w=186&h=198&c=7&r=0&o=5&dpr=1.4&pid=1.7"
+            alt="">
+          <span>min</span>
+        </div>
+        <div class="infoVal">
+          10 C
+        </div>
+      </div>
+      
+        <div class="infoBlock">
+          <div class="info">
+            <img src="https://th.bing.com/th/id/OIP.IBdUVIfZAwKZc072dxYUdQHaHa?w=186&h=186&c=7&r=0&o=5&dpr=1.4&pid=1.7"
+              alt="">
+            <span>max</span>
+          </div>
+          <div class="infoVal">
+            20 C
+          </div>
+        </div>
+        
+          <div class="infoBlock">
+            <div class="info">
+              <img
+                src="https://th.bing.com/th/id/OIP.va3zwYOGSJZ52xnA6cOawQHaHa?w=213&h=213&c=7&r=0&o=5&dpr=1.4&pid=1.7"
+                alt="">
+              <span>humidity</span>
+            </div>
+            <div class="infoVal">
+              77%
+            </div>
+          </div>
+
+          
+            <div class="infoBlock">
+              <div class="info">
+                <img
+                  src="https://th.bing.com/th/id/OIP.0Z3Xci042GRjBxCHQj3jxgHaFa?w=239&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7"
+                  alt="">
+                <span>wind</span>
+              </div>
+              <div class="infoVal">
+                11 kmpl
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <router-outlet></router-outlet>
