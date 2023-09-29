@@ -7,3 +7,4 @@ export const environment = {
     XRapidAPIHostValue:'open-weather-map27.p.rapidapi.com'
 
 };
+export type Environment = typeof environment;
